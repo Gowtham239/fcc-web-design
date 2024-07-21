@@ -1,0 +1,38 @@
+* {
+    overflow: hidden;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-color: #FFF8DB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    position: absolute;
+    height: 150px;
+    width: 280px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+#one {
+    background-color: #FFC7ED;
+    transform: rotate(140deg);
+    filter: blur(1.6px);
+}
+
+#two {
+    background-color: #7D8ABC;
+    transform: rotate(-20deg);
+    filter: blur(1.4px);
+}
+
+#three {
+    background-color: #304463;
+    filter: blur(1px);
+}
